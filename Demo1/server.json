@@ -1,0 +1,24 @@
+{
+    "name":"CB server Demo 1",
+    "web":{
+        "accessLogEnable":"true",
+        "bindings":{
+            "HTTP":{
+                "listen":"8080"
+            }
+        },
+        "rewrites":{
+            "enable":"true"
+        }
+    },
+    "sites":{
+        "site1":{
+            "hostAlias":"cbsite1.com",
+            "webroot":"C:\\Users\\Yogesh\\Documents\\CFCamp2024ResourcesGit\\CFCamp24Resources\\Demo1\\cbsite1"
+        },
+        "site2":{
+            "hostAlias":"cbsite2.com",
+            "webroot":"C:\\Users\\Yogesh\\Documents\\CFCamp2024ResourcesGit\\CFCamp24Resources\\Demo1\\cbsite2"
+        }
+    }
+}

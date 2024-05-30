@@ -1,0 +1,7 @@
+{
+    "hostAlias":"cbsite3.com",
+    "webroot":"../cbsite3",
+    "blockCFAdmin":true,
+    "welcomeFiles": "welcome.cfm"
+}
+

@@ -1,0 +1,19 @@
+{
+    "name":"CB server Demo 3",
+    "web":{
+        "accessLogEnable":"true",
+        "bindings":{
+            "HTTP":{
+                "listen":"8080"
+            }
+        },
+        "rewrites":{
+            "enable":"true"
+        }
+    },
+    "sites":{
+        "site4":{
+            "siteConfigFile":"C:\\Users\\Yogesh\\Documents\\lucidoutsourcingSite\\site4-config.json"
+        }
+    }
+}
