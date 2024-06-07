@@ -1,0 +1,6 @@
+{
+    "hostAlias":"cbsite4.com",
+    "webroot":"./cbsite4",
+    "blockCFAdmin":true
+}
+

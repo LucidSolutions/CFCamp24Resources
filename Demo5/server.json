@@ -1,5 +1,5 @@
 {
-    "name":"CB server Demo 3",
+    "name":"CB server Demo 5",
     "web":{
         "accessLogEnable":"true",
         "bindings":{
@@ -12,8 +12,8 @@
         }
     },
     "sites":{
-        "site3":{
-            "siteConfigFile":"C:\\Users\\Yogesh\\Documents\\lucidoutsourcingSite\\site3-config.json"
+        "site5":{
+            "siteConfigFile":"site5-config.json"
         }
     }
 }

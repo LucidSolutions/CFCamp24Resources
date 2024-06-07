@@ -1,0 +1,24 @@
+{
+    "hostAlias":"cbsite6.com",
+    "webroot":"./cbsite6",
+    "aliases":{
+        "/js":"./cbsite6/javascript"
+    },
+    "errorPages" : {
+        "404":"404.cfm"
+    },
+    "GZIPEnable":"true",
+    "gzipPredicate":"regex('^.*\\.txt$')",
+    "blockCFAdmin":false,
+    "directoryBrowsing":true,
+    "welcomeFiles":"main.cfm,default.cfm,index.cfm",
+    "mimeTypes":{
+        "log":"text/plain"
+    },
+    "rules":[
+        "path(/tea)->set-error(418)"
+    ],
+    "rulesFile":".rules.txt",
+    "allowedExt":"log"
+}
+

@@ -1,0 +1,32 @@
+{
+    "name":"CB server Demo 6",
+    "hostAlias":"cbsite6.com",
+    "web":{
+        "accessLogEnable":"true",
+        "bindings":{
+            "HTTP":{
+                "listen":"8080"
+            },
+            "HTTP":{
+                "listen":"8081"
+            }
+        },
+        "aliases":{
+            "/js":"./javascript"
+        },
+        "errorPages":{
+            "404":"404.cfm"
+        },
+        "blockCFAdmin":false,
+        "directoryBrowsing":true,
+        "welcomeFiles":"main.cfm,default.cfm",
+        "mimeTypes":{
+            "log":"text/plain"
+        },
+        "rules":[
+            "path(/tea)->set-error(418)"
+        ],
+        "rulesFile":".rules.txt",
+        "allowedExt":"log"
+    }
+}

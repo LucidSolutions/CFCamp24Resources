@@ -1,0 +1,15 @@
+{
+    "hostAlias":"cbsite5.com",
+    "webroot":"./cbsite5",
+    "blockCFAdmin":false,
+    "bindings":{
+        "HTTP":{
+            "listen":"8081"
+        },
+        "SSL":{
+            "listen":"8082",
+            "certFile":"./certs/ServerCert-all-SAN.pfx"
+        }
+    }
+}
+

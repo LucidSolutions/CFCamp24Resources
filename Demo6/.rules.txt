@@ -1,0 +1,2 @@
+path(/boom) -> set-error(500)
+path('/cfconfrence') -> rewrite('/cfcamp.cfm')
