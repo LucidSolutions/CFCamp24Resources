@@ -5,9 +5,6 @@
         "accessLogEnable":"true",
         "bindings":{
             "HTTP":{
-                "listen":"8080"
-            },
-            "HTTP":{
                 "listen":"8081"
             }
         },

@@ -1,1 +1,1 @@
-alert('Hello');
+alert('Welcome everyone to CFCamp');
